@@ -1,0 +1,31 @@
+{
+  "run": "runs/seg_clahe",
+  "kind": "seg",
+  "preproc": "clahe",
+  "n_test": 486,
+  "size_acc": 0.757201646090535,
+  "size_macro_f1": 0.7590106226491992,
+  "consistency": 0.977880658436214,
+  "confusion": [
+    [
+      116,
+      23,
+      1
+    ],
+    [
+      22,
+      113,
+      23
+    ],
+    [
+      9,
+      40,
+      139
+    ]
+  ],
+  "dice": 0.6855028937052381,
+  "iou": 0.5930164514627243,
+  "area_frac_mae": 0.013768499863783158,
+  "size_acc_no_postproc": 0.7489711934156379,
+  "size_macro_f1_no_postproc": 0.7475138973422601
+}

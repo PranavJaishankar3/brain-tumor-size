@@ -1,0 +1,31 @@
+{
+  "run": "runs/seg_zscore",
+  "kind": "seg",
+  "preproc": "zscore",
+  "n_test": 486,
+  "size_acc": 0.7757201646090535,
+  "size_macro_f1": 0.7771919141331937,
+  "consistency": 0.9675925925925926,
+  "confusion": [
+    [
+      123,
+      16,
+      1
+    ],
+    [
+      21,
+      114,
+      23
+    ],
+    [
+      10,
+      38,
+      140
+    ]
+  ],
+  "dice": 0.6998010808433645,
+  "iou": 0.6075788026147342,
+  "area_frac_mae": 0.013852111579988962,
+  "size_acc_no_postproc": 0.7613168724279835,
+  "size_macro_f1_no_postproc": 0.7609129267357115
+}
